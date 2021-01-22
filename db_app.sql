@@ -1,0 +1,9 @@
+CREATE TABLE  IF NOT EXISTS mensajes (
+id_mensaje INTEGER(7) UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+mensaje VARCHAR(280),
+autor_mensaje VARCHAR(50),
+fecha_mensaje TIMESTAMP 
+
+
+
+);
